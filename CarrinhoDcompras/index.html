@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrinho de Compras</title>
+    <link rel="icon" href="../images/logositebranco.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container-header">
+          <div class="colum-head-1">
+              <div class="logo-marca">
+                      <img src="../images/logosite.png" alt="logo">
+                      <a>FashionNest</a>
+                  </div>
+                  <div class="search-box">
+                      <form class="search" action="#" method="post">
+                          <div class="search-1">
+                          <input id="txtbusca" type="text" placeholder="Buscar produtos...">
+                          <button type="submit"><img id="lupa" src="../images/png-clipart-computer-icons-sign-magnifier-miscellaneous-glass-removebg-preview.png"></button>
+                          </div>
+                      </form>
+                  </div>
+
+
+                  <div class="user-guide">
+                      <a href="#sair">Sair</a>
+                      <a href="#config">Configurações</a>
+                      <img src="../images/user-circle-solid-72.png" alt="user-photo">
+                  </div>
+              </div>
+          <div class="colum-head-2">
+              <div class="grid-1">
+                  <a href="#home">Home</a>
+                  <a href="#categorias">Categorias</a>
+                  <a href="#histdecompra">Histórico de compras</a>
+                  <a href="#nossahist">Nossa história</a>
+                  <a href="#contatos">Redes sociais</a>
+                  <a href="#suporte">suporte</a>
+              </div>
+              <div class="grid-2">
+                  <div class="desejos">
+                      <a href="#desejos"><img src="../images/coracao.png" alt="lista de desejos"></a>
+                  </div>
+                  <div class="carrinho">
+                      <a href="#carrinho"><img src="../images/vista-lateral-vazia-do-carrinho-de-compras.png" alt="carrinhho de compras"></a>
+                  </div>
+              </div>
+          </div>   
+      </div>
+  </header>
+    <main>
+      <div class="page-title">Seu Carrinho</div>
+      <div class="content">
+        <section>
+          <table>
+            <thead>
+              <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>-</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="https://picsum.photos/100/120" alt="" />
+                    <div class="info">
+                      <div class="name">Nome do produto</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="https://picsum.photos/100/120" alt="" />
+                    <div class="info">
+                      <div class="name">Nome do produto</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="https://picsum.photos/100/120" alt="" />
+                    <div class="info">
+                      <div class="name">Nome do produto</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="product">
+                    <img src="https://picsum.photos/100/120" alt="" />
+                    <div class="info">
+                      <div class="name">Nome do produto</div>
+                      <div class="category">Categoria</div>
+                    </div>
+                  </div>
+                </td>
+                <td>R$ 120</td>
+                <td>
+                  <div class="qty">
+                    <button><i class="bx bx-minus"></i></button>
+                    <span>2</span>
+                    <button><i class="bx bx-plus"></i></button>
+                  </div>
+                </td>
+                <td>R$ 240</td>
+                <td>
+                  <button class="remove"><i class="bx bx-x"></i></button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <aside>
+          <div class="box">
+            <P>Resumo da compra</p>
+            <div class="info">
+              <div><span>Sub-total</span><span>R$ 418</span></div>
+              <div><span>Frete</span><span>Gratuito</span></div>
+              <div>
+                <button>
+                  Adicionar cupom de desconto
+                  <i class="bx bx-right-arrow-alt"></i>
+                </button>
+              </div>
+            </div>
+            <div class="rodape">
+              <span>Total</span>
+              <span>R$ 418</span>
+            </div>
+          </div>
+          <button>Finalizar Compra</button>
+        </aside>
+      </div>
+    </main>
+  </body>
+</html>

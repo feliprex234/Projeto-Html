@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra | FashionNest</title>
+    <link rel="icon" href="../imagens/logositebranco.png" type="image/png">
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <div class="colum-head-1">
+                <div class="logo-marca">
+                        <img src="../imagens/logosite.png" alt="logo">
+                        <a>FashionNest</a>
+                    </div>
+                    <div class="search-box">
+                        <form class="search" action="#" method="post">
+                            <div class="search-1">
+                            <input id="txtbusca" type="text" placeholder="Buscar produtos...">
+                            <button type="submit"><img id="lupa" src="../imagens/png-clipart-computer-icons-sign-magnifier-miscellaneous-glass-removebg-preview.png"></button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <div class="user-guide">
+                        <a href="../TelaLoginCadastro/Telalogin.html">Sair</a>
+                        <a href="#config">Configurações</a>
+                        <img src="../imagens/user-circle-solid-72.png" alt="user-photo">
+                    </div>
+                </div>
+            <div class="colum-head-2">
+                <div class="grid-1">
+                    <a href="../TelaInicial.html">Home</a>
+                    <a href="#categorias">Categorias</a>
+                    <a href="#histdecompra">Histórico de compras</a>
+                    <a href="#nossahist">Nossa história</a>
+                    <a href="#contatos">Redes sociais</a>
+                    <a href="#suporte">suporte</a>
+                </div>
+                <div class="grid-2">
+                    <div class="desejos">
+                        <a href="#desejos"><img src="../imagens/coracao.png" alt="lista de desejos"></a>
+                    </div>
+                    <div class="carrinho">
+                        <a href="../CarrinhoDcompras/TelaCarrinho.html"><img src="../imagens/vista-lateral-vazia-do-carrinho-de-compras.png" alt="carrinhho de compras"></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <main class="product-details-container">
+        <div class="product-image-section">
+            <img src="../imagens/bf1.JPG" alt="Produto" class="product-image">
+        </div>
+        <div class="product-info-section">
+            <h2 class="product-title">Camiseta Nike Dry-Fit Masculina</h2>
+            <p class="product-price"><s>R$ 114,90</s></p>
+            <p class="product-principal-price">R$ 45,96</p>
+            <p class="product-installment">em até 2x de R$ 24,13 com juros de 5%</p>
+
+            <p class="product-description">
+                Conforto e performance com desconto imperdível para o seu treino.
+            </p>
+
+            <div class="color-selection">
+                <p>Escolha a cor:</p>
+                <button class="color-option" style="background-color: #5C3317;" data-color="Marrom" data-img="../imagens/bf1.JPG"></button>
+                <button class="color-option" style="background-color: #ff0000;" data-color="Vermelho" data-img="../imagens/bf3.JPG"></button>
+                <button class="color-option" style="background-color: #0000ff;" data-color="Azul" data-img="../imagens/bf2.JPG"></button>
+            </div>
+
+            <div class="frete-calculation">
+                <p>Calcular Frete:</p>
+                <div class="frete-input-group">
+                    <input type="text" placeholder="Digite seu CEP" id="cep-input">
+                    <button id="calculate-frete">Calcular</button>
+                </div>
+                <p id="frete-result"></p>
+            </div>
+
+            <button class="buy-button">Comprar Agora</button>
+            <p class="seller-info">Vendido e entregue por FashionNest</p>
+        </div>
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <section id="Rodapé--">
+        <footer>
+           <div class="rodape-top">
+               <a>Rodapé</a>
+           </div>
+           <div class="rodape-links">
+               <div class="colunas-rodape">
+                   <a class="column-title-rod">Conheça-nos</a>
+                   <a href="#" class="column-link-rod">Sobre a marca</a>
+                   <a href="#" class="column-link-rod">Comunidade</a>
+                   <a href="#" class="column-link-rod">Carreiras</a>
+               </div>
+               <div class="colunas-rodape">
+                   <a class="column-title-rod">Ganhe dinheiro conosco</a>
+                   <a href="#" class="column-link-rod">Venda nosso produto</a>
+                   <a href="#" class="column-link-rod">Anuncie com a gente</a>
+                   <a href="#" class="column-link-rod">Crie e construa sua marca</a>
+               </div>
+               <div class="colunas-rodape">
+                   <a class="column-title-rod">Pagamento</a>
+                   <a href="#" class="column-link-rod">Meios de pagamento</a>
+                   <a href="#" class="column-link-rod">Compre com pontos</a>
+                   <a href="#" class="column-link-rod">Cartão de crédito</a>
+               </div>
+               <div class="colunas-rodape">
+                   <a class="column-title-rod">Deixe-nos ajudar você</a>
+                   <a href="#" class="column-link-rod">Sua conta</a>
+                   <a href="#" class="column-link-rod">Frete e prazo de entrega</a>
+                   <a href="#" class="column-link-rod">Ajuda</a>
+               </div>
+   
+           </div>
+        </footer>
+       </section>
+
+    <script src="details.js"></script>
+</body>
+</html>

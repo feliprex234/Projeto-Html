@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Início | FashionNest</title>
+    <link rel="icon" href="./imagens/logositebranco.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estiloC.css">
+    <script src="javaS.js" defer></script>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <header>
+        <div class="container-header">
+            <div class="colum-head-1">
+                <div class="logo-marca">
+                        <img src="./imagens/logosite.png" alt="logo">
+                        <a>FashionNest</a>
+                    </div>
+                    <div class="search-box">
+                        <form class="search" action="#" method="post">
+                            <div class="search-1">
+                            <input id="txtbusca" type="text" placeholder="Buscar produtos...">
+                            <button type="submit"><img id="lupa" src="./imagens/png-clipart-computer-icons-sign-magnifier-miscellaneous-glass-removebg-preview.png"></button>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <div class="user-guide">
+                        <a href="./TelaLoginCadastro/Telalogin.html">Sair</a>
+                        <a href="#config">Configurações</a>
+                        <img src="./imagens/user-circle-solid-72.png" alt="user-photo">
+                    </div>
+                </div>
+            <div class="colum-head-2">
+                <div class="grid-1">
+                    <a href="./TelaInicial.html">Home</a>
+                    <a href="#categorias">Categorias</a>
+                    <a href="#histdecompra">Histórico de compras</a>
+                    <a href="#nossahist">Nossa história</a>
+                    <a href="#contatos">Redes sociais</a>
+                    <a href="#suporte">suporte</a>
+                </div>
+                <div class="grid-2">
+                    <div class="desejos">
+                        <a href="#desejos"><img src="./imagens/coracao.png" alt="lista de desejos"></a>
+                    </div>
+                    <div class="carrinho">
+                        <a href="./CarrinhoDcompras/TelaCarrinho.html"><img src="./imagens/vista-lateral-vazia-do-carrinho-de-compras.png" alt="carrinhho de compras"></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </header>
+    <!-- Barra de Navegação *fim* -->
+    <!-- Carrossel de produtos -->
+
+    <section class="slider">
+        <div class="slider-content">
+            
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primeiro">
+                <img class="img-desktop" src="./imagens/Banner1.jpg" alt="slide 1">
+                
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./imagens/Banner2.JPG" alt="slide 3">
+                
+            </div>
+
+            <div class="slide-box">
+                <img class="img-desktop" src="./imagens/banner3.JPG" alt="slide 3">
+                
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Carrossel de produtos -->
+    <br>
+    <br>
+    <br>
+    <!--cards de produtos (BLACK FRIDAY)-->
+    <h2 class="tituloscard"><b>FASHION FRIDAY - 60% DE DESCONTO</b></h2>
+    <div class="product-container-black">
+        <div class="product-card-black">
+            <img src="./imagens/bf1.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title-black">Camiseta Nike Dry-Fit</h2>
+            <p class="product-price-black"><s>R$ 114,90</s>R$ 45,96</p>
+            <p class="product-description-black">Conforto e performance com desconto imperdível para o seu treino.</p>
+            <form action="./TelaDcompra/TelaDeCompra.html" method="GET">
+            <button type="submit" class="product-button-black">Comprar</button>
+            </form>
+        </div>
+        <div class="product-card-black">
+            <img src="./imagens/bf4.jpg" alt="Produto" class="product-image">
+            <h2 class="product-title-black">Manga Longa Dry-Fit</h2>
+            <p class="product-price-black"><s>R$ 342,00</s>R$ 136,80</p>
+            <p class="product-description-black">Dryfit manga longa, ideal para treinos com conforto, respirabilidade e estilo.</p>
+            <button class="product-button-black">Comprar</button>
+        </div>
+        <div class="product-card-black">
+            <img src="./imagens/bf5.jpg" alt="Produto" class="product-image">
+            <h2 class="product-title-black">Nike Sportswear</h2>
+            <p class="product-price-black"><s>R$ 130,90</s>R$ 52,36</p>
+            <p class="product-description-black">Camiseta Sportswear, estilo casual e conforto para o dia a dia com toque esportivo.</p>
+            <button class="product-button-black">Comprar</button>
+        </div>
+        <div class="product-card-black">
+            <img src="./imagens/bf6.jpg" alt="Produto" class="product-image">
+            <h2 class="product-title-black">Legging Nike Pro</h2>
+            <p class="product-price-black"><s>R$ 220,90</s>R$ 88,36</p>
+            <p class="product-description-black">Compressão e conforto para treinos intensos, com ajuste perfeito e suporte.</p>
+            <button class="product-button-black">Comprar</button>
+        </div>
+        <div class="product-card-black">
+            <img src="./imagens/bf7.jpg" alt="Produto" class="product-image">
+            <h2 class="product-title-black">Nike Club Knit</h2>
+            <p class="product-price-black"><s>R$ 300,00</s>R$ 120,00</p>
+            <p class="product-description-black">Calça confortável e estilosa, ideal para o dia a dia e atividades casuais.</p>
+            <button class="product-button-black">Comprar</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--Segunda fileira de cards-->
+    <h2 class="tituloscard"><b>Kit do atleta</b></h2>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="./imagens/kit1.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Bolsa Nike Academy</h2>
+            <p class="product-price">R$ 240,90</p>
+            <p class="product-description">Bolsa espaçosa e resistente, ideal para esportes e uso diário com estilo.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/kit2.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Bola Nike Futebol</h2>
+            <p class="product-price">R$ 85,99</p>
+            <p class="product-description">Durável e precisa, perfeita para jogos intensos e momentos de diversão.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/kit3.WEBP" alt="Produto" class="product-image">
+            <h2 class="product-title">Bola Nike Vôlei</h2>
+            <p class="product-price">R$ 95,00</p>
+            <p class="product-description">Durável e precisa, perfeita para jogos intensos e momentos de diversão.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/kit4.jpg" alt="Produto" class="product-image">
+            <h2 class="product-title">Manguito Nike Vôlei</h2>
+            <p class="product-price">R$ 65,90</p>
+            <p class="product-description">Conforto e proteção com design ajustável para treinos e atividades ao ar livre.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/kit5.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Meia Nike</h2>
+            <p class="product-price">R$ 78,80</p>
+            <p class="product-description">Confortável e respirável, ideal para esportes ou uso diário com estilo.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--Terceira fileira de cards-->
+    <h2 class="tituloscard"><b>Camisetas mais procuradas</b></h2>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="./imagens/camiseta1.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Camiseta Nike Dry-Fit</h2>
+            <p class="product-price">R$ 80,00</p>
+            <p class="product-description">Leve e respirável, perfeita para treinos intensos e máximo conforto diário.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/camiseta2.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Camiseta Liverpool</h2>
+            <p class="product-price">R$ 256,99</p>
+            <p class="product-description">Mostre sua paixão pelo Liverpool com conforto e estilo oficial da Nike.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/camiseta3.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Camiseta Nike Dry-Fit</h2>
+            <p class="product-price">R$ 80,00</p>
+            <p class="product-description">Leve e respirável, perfeita para treinos intensos e máximo conforto diário.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/camiseta4.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Camiseta Nike Sb</h2>
+            <p class="product-price">R$ 130,99</p>
+            <p class="product-description">Estilo casual e conforto premium, ideal para o dia a dia.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/camiseta5.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Camiseta Nike Dry-Fit</h2>
+            <p class="product-price">R$ 120,00</p>
+            <p class="product-description">Conforto e performance para o vôlei, tecido que te mantém seco e confortável.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+    </div>
+    <!--Fim dos cards do produto-->
+    <br>
+    <br>
+    <!--Quarta fileira de cards-->
+    <h2 class="tituloscard"><b>Calças e shorts com 10% de desconto</b></h2>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="./imagens/cs1.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Legging Pro Feminina</h2>
+            <p class="product-price"><s>R$ 230,00</s>R$ 207,00</p>
+            <p class="product-description">Conforto e flexibilidade para qualquer atividade, com estilo e ajuste perfeito.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/cs2.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Calça Club Knit Masc</h2>
+            <p class="product-price"><s>R$ 300,00</s>R$ 270,00</p>
+            <p class="product-description">Conforto e estilo para o dia a dia, com ajuste perfeito e tecido macio.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/cs3.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Calça Sportswear</h2>
+            <p class="product-price"><s>R$ 250,90</s>R$ 225,81</p>
+            <p class="product-description">Design moderno e perfeita para atividades esportivas e casuais.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/cs4.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Shorts Nike Pro</h2>
+            <p class="product-price"><s>R$ 130,99</s>R$ 117,89</p>
+            <p class="product-description">Short leve e confortável, ideal para treinos e momentos de lazer.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/cs5.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Short Nike Dry-Fit </h2>
+            <p class="product-price"><s>R$ 105,80</s>R$ 95,22</p>
+            <p class="product-description">Short leve e confortável, ideal para treinos e momentos de lazer.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--Quinta fileira de cards-->
+    <h2 class="tituloscard"><b>Tênis mais vendidos</b></h2>
+    <div class="product-container">
+        <div class="product-card">
+            <img src="./imagens/tenis1.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Tênis Nike Versair</h2>
+            <p class="product-price">R$ 589,90</p>
+            <p class="product-description">Combina estilo e conforto, ideal para o dia a dia e atividades casuais.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/tenis2.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Nike Jordan One</h2>
+            <p class="product-price">R$ 599,99</p>
+            <p class="product-description">Ícone de estilo e conforto, perfeito para um visual urbano e esportivo.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/tenis3.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Nike Metcon 9</h2>
+            <p class="product-price">R$ 637,90</p>
+            <p class="product-description">Estabilidade para treinos intensos, com design robusto e confortável.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/tenis4.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Nike MC Trainer 2</h2>
+            <p class="product-price">R$ 427,90</p>
+            <p class="product-description">Versatilidade e conforto para treinos variados, com suporte e estabilidade.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+        <div class="product-card">
+            <img src="./imagens/tenis5.JPG" alt="Produto" class="product-image">
+            <h2 class="product-title">Nike Invincible 3</h2>
+            <p class="product-price">R$ 779,90</p>
+            <p class="product-description">Máxima amortização e conforto para corridas longas e treinos intensos.</p>
+            <button class="product-button">Comprar</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    
+    <!-- Rodapé-->
+     <section id="Rodapé--">
+     <footer>
+        <div class="rodape-top">
+            <a>Rodapé</a>
+        </div>
+        <div class="rodape-links">
+            <div class="colunas-rodape">
+                <a class="column-title-rod">Conheça-nos</a>
+                <a href="#" class="column-link-rod">Sobre a marca</a>
+                <a href="#" class="column-link-rod">Comunidade</a>
+                <a href="#" class="column-link-rod">Carreiras</a>
+            </div>
+            <div class="colunas-rodape">
+                <a class="column-title-rod">Ganhe dinheiro conosco</a>
+                <a href="#" class="column-link-rod">Venda nosso produto</a>
+                <a href="#" class="column-link-rod">Anuncie com a gente</a>
+                <a href="#" class="column-link-rod">Crie e construa sua marca</a>
+            </div>
+            <div class="colunas-rodape">
+                <a class="column-title-rod">Pagamento</a>
+                <a href="#" class="column-link-rod">Meios de pagamento</a>
+                <a href="#" class="column-link-rod">Compre com pontos</a>
+                <a href="#" class="column-link-rod">Cartão de crédito</a>
+            </div>
+            <div class="colunas-rodape">
+                <a class="column-title-rod">Deixe-nos ajudar você</a>
+                <a href="#" class="column-link-rod">Sua conta</a>
+                <a href="#" class="column-link-rod">Frete e prazo de entrega</a>
+                <a href="#" class="column-link-rod">Ajuda</a>
+            </div>
+
+        </div>
+     </footer>
+    </section>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

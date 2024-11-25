@@ -1,0 +1,330 @@
+ header{
+    height: 100px;
+    background-color: #EEEEE0;
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: 0;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    
+}
+/*Barra de navegação*/
+.container-header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.colum-head-1{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 3fr 4fr 2fr;
+
+}
+.logo-marca{
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    
+}
+.logo-marca a{
+    font-size:x-large;
+    color: #242a38;
+    margin-left: 1%;
+    font-family:sans-serif;
+}
+.logo-marca img{
+    width: 45px;
+    height: 45px;
+    margin-left: 11.7%;
+
+}
+.search-box{
+    background-color: #EEEEE0;
+    border-bottom-left-radius: 10px;
+}
+#lupa {
+  height: 30px;
+}
+
+
+.search-1{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom: 4px solid #242a38;
+    width: 60%;
+    margin-left: 2%;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+    height: 39px;
+  }
+  .search-1 input{
+    border: none;
+    color: #242a38;
+    font-family:sans-serif;
+  }
+  .search-1 button{
+    background-color: transparent;
+    border: none;
+
+  }
+  input:focus {
+    outline: none; /*Remover a borda que aparece quando clica para pesquisar*/
+    border: none; 
+}
+  
+  #txtbusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .user-guide{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #EEEEE0;
+    
+  }
+  .user-guide img{
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+  }
+  .user-guide a{
+    font-size: larger;
+    color: #242a38;
+    margin-right: 15px;
+    text-decoration: none;
+    font-family:sans-serif;
+  }
+  .user-guide a:hover{
+    text-decoration: underline;
+  }
+
+/*Metade de baixo da barra de navegação */
+  .colum-head-2{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1.1fr;
+    padding-left: 30px;
+}
+.grid-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-1 a{
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    /*Transição*/
+    transition-property: transform 0.3s ease;
+    transition-duration: 0.3s;
+    transition-timing-function: 0.3s;
+    font-family:sans-serif;
+}
+.grid-1 a:hover{
+  text-decoration: none;
+  transform: scale(1.2);
+}
+.grid-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+.grid-2 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 3rem;
+}
+/*barra de navegação -fim-*/
+
+
+/*grid footer*/
+footer{
+  background-color: #333;
+  height: 180px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 30px 150px;
+  bottom: 0;
+}
+.rodape-top{
+  display: flex;
+  border-bottom: #EEEEE0 2px dashed;
+  justify-content: center;
+  align-items: center;
+  color: #EEEEE0;
+}
+.rodape-links{
+  display: flex;
+  justify-content: space-around;
+}
+.colunas-rodape{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.column-title-rod {
+  font-size: large;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #EEEEE0;
+}
+.column-link-rod {
+  color: #e6e6e6;
+}
+
+/*cards Black Friday*/
+
+.tituloscard {
+  padding-right: 9.2%;
+  padding-bottom: 20px;
+}
+.product-container-black {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.product-card-black {
+    background-color: #333;
+    border: none;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.product-card-black:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.product-title-black {
+    font-size: 18px;
+    margin: 10px;
+    color: #fff;
+}
+
+.product-price-black {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-description-black {
+    font-size: 14px;
+    margin: 10px;
+    color: #fff;
+}
+
+.product-button-black {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: calc(100% - 20px);
+    font-size: 16px;
+}
+
+.product-button-black:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/*Card em Branco*/
+.tituloscard {
+  padding-left: 9.2%;
+  padding-bottom: 20px;
+}
+.product-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.product-card {
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    width: 100%;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.product-title {
+    font-size: 18px;
+    margin: 10px;
+    color: #333;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-description {
+    font-size: 14px;
+    margin: 10px;
+    color: #333;
+}
+
+.product-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: calc(100% - 20px);
+    font-size: 16px;
+}
+
+.product-button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
