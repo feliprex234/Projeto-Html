@@ -1,0 +1,239 @@
+ header{
+    height: 100px;
+    background-color: #c0e3af;
+}
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: 0;
+    background-color: #e6e6e6;
+    font-family: sans-serif;
+    
+}
+/*Barra de navegação*/
+.container-header{
+    display: flex;
+    flex-direction: column;
+    
+}
+.colum-head-1{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 3fr 4fr 2fr;
+
+}
+.logo-marca{
+    display: flex;
+    align-items: center;
+    
+}
+.logo-marca a{
+    font-size:x-large;
+    color: #242a38;
+    margin-left: 11%;
+}
+.logo-marca img{
+    width: 45px;
+    height: 45px;
+    margin-left: 11.7%;
+
+}
+.search-box{
+    background-color: #c0e3af;
+    border-bottom-left-radius: 10px;
+}
+#lupa {
+    height: 30px;
+}
+.user-guide{
+    background-color: #c0e3af;
+}
+
+.search-1{
+    display: flex;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    border-bottom-left-radius: 10px;
+    border-bottom: 4px solid #242a38;
+    width: 60%;
+    margin-left: 2%;
+    border-bottom-left-radius: 10px;
+    align-items: center;
+  }
+  .search-1 input{
+    border: none;
+    color: #242a38;
+  }
+  .search-1 button{
+    background-color: transparent;
+    border: none;
+
+  }
+  
+  #txtbusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
+  .user-guide{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #c0e3af;
+    
+  }
+  .user-guide img{
+    width: 45px;
+    height: 45px;
+    margin-right: 25px;
+  }
+  .user-guide a{
+    font-size: larger;
+    color: #242a38;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+  .user-guide a:hover{
+    text-decoration: underline;
+  }
+
+/*Metade de baixo da barra de navegação */
+  .colum-head-2{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1.1fr;
+}
+.grid-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.grid-1 a{
+    color: #242a38;
+    text-decoration: none;
+    font-size:medium;
+    /*Transição*/
+    transition-property: transform 0.3s ease;
+    transition-duration: 0.3s;
+    transition-timing-function: 0.3s;
+}
+.grid-1 a:hover{
+  text-decoration: underline;
+  transform: scale(1.2);
+}
+.grid-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+.grid-2 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 3rem;
+}
+/*barra de navegação -fim-*/
+
+/*Grid card social*/
+.card-soc{
+  display: flex;
+}
+.card-socd{
+  display: grid;
+  width: 100%;
+  height: 900px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.barcolor{
+  height: 28px;
+  width: 100%;
+  background-color: #242a38;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.barcolor-bottom{
+  height: 28px;
+  width: 100%;
+  background-color: #242a38;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.card-soc-dev{
+box-shadow: -6px 3px 20px #242a38;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  width: 33rem;
+  background-color: #e6e6e6;
+}
+.card-soc-dev img{
+  width: 400px;
+  height: 400px;
+  align-self: center;
+  margin-top: 10px;
+}
+.card-soc-dev p{
+  text-align: center;
+  font-size: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #242a38;
+}
+.midias-link{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+.midias-link img{
+  height: 80px;
+  width: 80px;
+}
+.midias-link{
+  border-bottom: #242a38 px solid;
+}
+
+
+
+/*grid footer*/
+footer{
+  background-color: #242a38;
+  height: 180px;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 30px 150px;
+  bottom: 0;
+}
+.rodape-top{
+  display: flex;
+  border-bottom: #c0e3af 2px dashed;
+  justify-content: center;
+  align-items: center;
+  color: #c0e3af;
+}
+.rodape-links{
+  display: flex;
+  justify-content: space-around;
+}
+.colunas-rodape{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+.column-title-rod {
+  font-size: large;
+  font-style: italic;
+  text-transform: capitalize;
+  color: #c0e3af;
+}
+.column-link-rod {
+  color: #e6e6e6;
+}
